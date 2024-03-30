@@ -3,7 +3,7 @@ fr:
   plugin_openproject_avatars:
     name: "Avatars"
     description: >-
-      Ce plugin permet aux utilisateurs d'OpenProject de télécharger une image à utiliser comme avatar ou d'utiliser des images provenant de Gravatar.
+      Ce plugin permet aux utilisateurs d' Project Management System de télécharger une image à utiliser comme avatar ou d'utiliser des images provenant de Gravatar.
   label_avatar: "Avatar"
   label_avatar_plural: "Avatars"
   label_current_avatar: "Avatar actuel"
@@ -29,11 +29,11 @@ fr:
       Un aperçu de votre avatar sera affiché avant le téléchargement, une fois que vous aurez sélectionné une image.
     text_change_gravatar_html: 'Pour changer ou ajouter un Gravatar pour votre adresse de courriel, allez à %{gravatar_url}.'
     text_your_local_avatar: |
-      OpenProject vous permet de téléverser votre propre avatar personnalisé.
+      Project Management System vous permet de téléverser votre propre avatar personnalisé.
     text_local_avatar_over_gravatar: |
       Si vous en avez défini un, cet avatar personnalisé sera utilisé à la place du gravatar ci-dessus.
     text_your_current_gravatar: |
-      OpenProject utilise votre gravatar si vous en possédez un, ou bien une image ou icône par défaut si celle-ci existe.
+      Project Management System utilise votre gravatar si vous en possédez un, ou bien une image ou icône par défaut si celle-ci existe.
       Le gravatar actuel est le suivant :
     settings:
       enable_gravatars: 'Activer les gravatars de l''utilisateur'

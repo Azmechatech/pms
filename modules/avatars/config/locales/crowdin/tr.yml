@@ -3,7 +3,7 @@ tr:
   plugin_openproject_avatars:
     name: "Avatarlar"
     description: >-
-      This plugin allows OpenProject users to upload a picture to be used as an avatar or use registered images from Gravatar.
+      This plugin allows Project Management System users to upload a picture to be used as an avatar or use registered images from Gravatar.
   label_avatar: "Avatar"
   label_avatar_plural: "Avatarlar"
   label_current_avatar: "Mevcut Avatar"
@@ -29,11 +29,11 @@ tr:
       Bir resmi seçtikten sonra, yüklemeden önce avatarınızın bir önizlemesi gösterilir.
     text_change_gravatar_html: 'Posta adresinize ait Gravatar''ı değiştirmek veya eklemek için, %{gravatar_url}. adresine gidin.'
     text_your_local_avatar: |
-      OpenProject kendi özel avatarınızı yüklemenizi sağlar.
+      Project Management System kendi özel avatarınızı yüklemenizi sağlar.
     text_local_avatar_over_gravatar: |
       Birini ayarlarsanız, bu özel avatar yukarıdaki gravatar üzerinde öncelikli olarak kullanılır.
     text_your_current_gravatar: |
-      OpenProject bir tanesini kaydettiyseniz gravatarınızı veya varsa bir varsayılan görüntü veya simgeyi kullanır.
+      Project Management System bir tanesini kaydettiyseniz gravatarınızı veya varsa bir varsayılan görüntü veya simgeyi kullanır.
       Mevcut gravatar aşağıdaki gibidir:
     settings:
       enable_gravatars: 'Kullanıcı gravatarlarını etkinleştir'

@@ -133,7 +133,7 @@ You can use your mobile phone as a 2FA device. The field *Identifier* will be pr
 
 ### Use your app-based authenticator
 
-Register an application authenticator for use with OpenProject using the time-based one-time password authentication standard. Common examples are Google Authenticator or Authy.
+Register an application authenticator for use with Project Management System using the time-based one-time password authentication standard. Common examples are Google Authenticator or Authy.
 
 Click the grey **Register device** button to register an authentication app. Open your app and follow the instructions to add a new application. The easiest way is to scan the QR code. Otherwise, you can register the application manually by entering the displayed details.
 
@@ -166,10 +166,10 @@ API tokens allow third-party applications to communicate with this OpenProject i
 
 You can enable an API token under [*Administration -> API and webhooks*](../../system-admin-guide/api-and-webhooks/). Please note that you can only create a single API token.
 ### iCalendar
-iCalendar tokens allow users to subscribe to OpenProject calendars and view up-to-date work package information from external clients. 
+iCalendar tokens allow users to subscribe to Project Management System Calendars and view up-to-date work package information from external clients. 
 This list will be empty if you have no calendar subscriptions yet. Once you [subscribe to a calendar](../../user-guide/calendar/#subscribe-to-a-calendar), a list of all the calendars that you have subscribed to will appear here. The name of the calendar is clickable and will lead you directly to the respective calendar in OpenProject. 
 
-![OpenProject calendar list under my account](openproject_my_account_access_tokens_calendar_list.png)
+![Project Management System Calendar list under my account](openproject_my_account_access_tokens_calendar_list.png)
 
 You can delete an entry in the iCalendar list by clicking on the **Delete** icon. This will trigger a warning message asking you to confirm the decision to delete.  By deleting this token you will no longer have access to OpenProject information in all the linked clients using this token.
 
@@ -177,7 +177,7 @@ You can delete an entry in the iCalendar list by clicking on the **Delete** icon
 
 You will then see a message informing you that the the token und the iCal URL are now invalid.
 
-![OpenProject calendar access token is invalid](openproject_my_account_access_tokens_calendar_invalid.png)
+![Project Management System Calendar access token is invalid](openproject_my_account_access_tokens_calendar_invalid.png)
 
 ### OAUTH
 

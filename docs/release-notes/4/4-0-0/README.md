@@ -104,7 +104,7 @@ page.
 
   - OpenProject Auth plugin
     [GitHub](https://github.com/opf/openproject-auth_plugins)
-  - OpenProject GitHub integration plugin
+  - Project Management System GitHub Integration plugin
     [GitHub](https://github.com/finnlabs/openproject-github_integration)
 
 ## Substantial Number of Bug Fixes

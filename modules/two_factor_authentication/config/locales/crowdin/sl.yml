@@ -1,7 +1,7 @@
 #English strings go here for Rails i18n
 sl:
   plugin_openproject_two_factor_authentication:
-    name: "OpenProject Two-factor authentication"
+    name: "Project Management System Two-factor authentication"
     description: >-
       This OpenProject plugin authenticates your users using two-factor authentication by means of one-time password through the TOTP standard (Google Authenticator) or sent to the user's cell phone via SMS or voice call.
   activerecord:
@@ -78,7 +78,7 @@ sl:
       only_sms_allowed: "Only SMS delivery can be set up for other users."
     upsale:
       title: "Dvofaktorna avtentikacija"
-      description: "Strenghten the security of your OpenProject instance by offering (or enforcing) two-factor authentification to all project members."
+      description: "Strenghten the security of your Project Management System instance by offering (or enforcing) two-factor authentification to all project members."
     backup_codes:
       none_found: "\nZa ta račun ni rezervnih kod."
       singular: Rezervna koda

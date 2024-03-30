@@ -1,7 +1,7 @@
 de:
   plugin_openproject_webhooks:
-    name: "OpenProject Webhooks"
-    description: "API zur Unterstützung von OpenProject Webhooks für eine bessere Integration von Drittanbietern"
+    name: "Project Management System Webhooks"
+    description: "API zur Unterstützung von Project Management System Webhooks für eine bessere Integration von Drittanbietern"
   activerecord:
     attributes:
       webhooks/webhook:

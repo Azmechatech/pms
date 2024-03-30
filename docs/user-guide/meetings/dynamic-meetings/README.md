@@ -93,7 +93,7 @@ You may also re-order agenda items by clicking on the drag handle (the icon with
 
 The durations of each agenda item are automatically summed up. If that sum exceeds the planned duration entered in *Meeting Details*, the duration of those agenda times that exceed the planned duration will appear in red to warn you of the fact.
 
-![OpenProject meeting too long](openproject_dynamic_meetings_agenda_too_long.png)
+![Project Management System Meeting too long](openproject_dynamic_meetings_agenda_too_long.png)
 
 ### Add a work package to the agenda
 

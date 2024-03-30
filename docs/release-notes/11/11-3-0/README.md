@@ -39,7 +39,7 @@ The **new invite modal for users, groups, and placeholder users** can now be ope
 
 ## GitHub integration
 
-With OpenProject 11.3 we released a new **integration between GitHub and OpenProject**. This integration facilitates the collaboration of developers by connecting the two applications. The new GitHub integration in OpenProject is an individual module that, once activated, will be displayed to you as a tab in the work package details view. All activities taking place on GitHub that are related to the work package, are listed on this new GitHub tab. [Find out more about the OpenProject GitHub integration](../../../system-admin-guide/integrations/github-integration/).
+With OpenProject 11.3 we released a new **integration between GitHub and OpenProject**. This integration facilitates the collaboration of developers by connecting the two applications. The new GitHub integration in OpenProject is an individual module that, once activated, will be displayed to you as a tab in the work package details view. All activities taking place on GitHub that are related to the work package, are listed on this new GitHub tab. [Find out more about the Project Management System GitHub Integration](../../../system-admin-guide/integrations/github-integration/).
 
 ![github-integration](github-integration.png)
 

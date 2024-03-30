@@ -21,8 +21,8 @@
 #++
 fi:
   plugin_openproject_documents:
-    name: "OpenProject Documents"
-    description: "An OpenProject plugin to allow creation of documents in projects."
+    name: "Project Management System Documents"
+    description: "An Project Management Systemplugin to allow creation of documents in projects."
   activerecord:
     models:
       document: "Asiakirja"

@@ -1,4 +1,4 @@
-# OpenProject Calendar module
+# Project Management System Calendar module
 #
 # Copyright (C) 2021 OpenProject GmbH
 #

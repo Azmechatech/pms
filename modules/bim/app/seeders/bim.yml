@@ -324,7 +324,7 @@ projects:
           options:
             t_name: 'Getting started'
             t_text: |
-              We are glad you joined! We suggest to try a few things to get started in OpenProject.
+              We are glad you joined! We suggest to try a few things to get started in Project Management System.
 
               But before you jump right into it, you should know that this exemplary project is split up into two different projects:
 
@@ -467,7 +467,7 @@ projects:
           options:
             t_name: 'Getting started'
             t_text: |
-              We are glad you joined! We suggest to try a few things to get started in OpenProject.
+              We are glad you joined! We suggest to try a few things to get started in Project Management System.
 
               Here you will find the classical roles, some workflows and work packages for your construction project.
 
@@ -934,7 +934,7 @@ projects:
           options:
             t_name: 'Getting started'
             t_text: |
-              We are glad you joined! We suggest to try a few things to get started in OpenProject.
+              We are glad you joined! We suggest to try a few things to get started in Project Management System.
 
               This demo project offers roles, workflows and work packages that are specialized for BIM.
 
@@ -1543,7 +1543,7 @@ projects:
           options:
             t_name: 'Getting started'
             t_text: |
-              We are glad you joined! We suggest to try a few things to get started in OpenProject.
+              We are glad you joined! We suggest to try a few things to get started in Project Management System.
 
               This demo project shows BCF management functionalities.
 

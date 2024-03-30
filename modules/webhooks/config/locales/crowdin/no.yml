@@ -1,7 +1,7 @@
 "no":
   plugin_openproject_webhooks:
-    name: "OpenProject Webhooks"
-    description: "Gir en plug-in API for å støtte OpenProject webhooks for bedre 3dje parts integrasjon."
+    name: "Project Management System Webhooks"
+    description: "Gir en plug-in API for å støtte Project Management System Webhooks for bedre 3dje parts integrasjon."
   activerecord:
     attributes:
       webhooks/webhook:

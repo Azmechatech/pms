@@ -12,7 +12,7 @@ Release date: 2023-08-21
 
 We have released [OpenProject 13.0.0](https://community.openproject.org/versions/1656).
 
-This version comes with a large number of new features, collaboration enhancements, and bug fixes. Among the highly anticipated project management features is the introduction of Baseline comparison. Nextcloud project folders will come with automatically managed permissions and the ability to set up project templates with a pre-defined folder structure and file templates linked to work packages. Subscribe to your OpenProject calendar, and generate work plans via the new PDF export.
+This version comes with a large number of new features, collaboration enhancements, and bug fixes. Among the highly anticipated project management features is the introduction of Baseline comparison. Nextcloud project folders will come with automatically managed permissions and the ability to set up project templates with a pre-defined folder structure and file templates linked to work packages. Subscribe to your Project Management System Calendar, and generate work plans via the new PDF export.
 
 Finally, as part of our commitment to the Community, we are pleased to announce that multi-select custom fields are now accessible in the free-of-charge Community version.
 
@@ -43,9 +43,9 @@ The PDF export has been updated to significantly improve the quality of project 
 
 ## Subscribe to calendars via URL (iCalendar format)
 
-You can now have all your OpenProject calendars with all important work packages and milestones integrated in your personal calendar. Subscribe to a calendar via URL and include this information in your personal calendar supporting the iCalendar format, such as such as Thunderbird,  Open-Xchange, Apple calendar or Google calendar.
+You can now have all your Project Management System Calendars with all important work packages and milestones integrated in your personal calendar. Subscribe to a calendar via URL and include this information in your personal calendar supporting the iCalendar format, such as such as Thunderbird,  Open-Xchange, Apple calendar or Google calendar.
 
-![OpenProject calendar subscription](openproject-subscribe-calendar.png)
+![Project Management System Calendar subscription](openproject-subscribe-calendar.png)
 
 ## Global modules are listed on new index pages
 

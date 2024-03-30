@@ -86,7 +86,7 @@ via app. Upon entering your username and password you are prompted to
 enter a token. You are only logged in when the correct token is
 provided. This provides a much higher level of security.
 
-## OpenProject webhooks
+## Project Management System Webhooks
 
 OpenProject offers an [extensive API](../../../api/) 
 to synchronize data between

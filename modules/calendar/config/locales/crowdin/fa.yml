@@ -1,7 +1,7 @@
 #English strings go here
 fa:
   plugin_openproject_calendar:
-    name: "OpenProject Calendar"
+    name: "Project Management System Calendar"
     description: "Provides calendar views."
   label_calendar: "تقویم"
   label_calendar_plural: "تقویم‌ها"

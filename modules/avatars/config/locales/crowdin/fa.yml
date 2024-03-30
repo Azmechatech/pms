@@ -3,7 +3,7 @@ fa:
   plugin_openproject_avatars:
     name: "چهرک‌ها"
     description: >-
-      This plugin allows OpenProject users to upload a picture to be used as an avatar or use registered images from Gravatar.
+      This plugin allows Project Management System users to upload a picture to be used as an avatar or use registered images from Gravatar.
   label_avatar: "چهرک"
   label_avatar_plural: "آواتارها"
   label_current_avatar: "آواتار فعلی"
@@ -33,7 +33,7 @@ fa:
     text_local_avatar_over_gravatar: |
       اگر یکی تنظیم کنید، این آواتار شخصی به اولویت نسبت به گراواتار بالا استفاده می‌شود.
     text_your_current_gravatar: |
-      OpenProject از گراواتار یا در صورت وجود تصویر یا آیکون پیش‌فرض شما یکی را استفاده می‌کند. گراواتار فعلی به شکل زیر است:
+      Project Management System از گراواتار یا در صورت وجود تصویر یا آیکون پیش‌فرض شما یکی را استفاده می‌کند. گراواتار فعلی به شکل زیر است:
     settings:
       enable_gravatars: 'چهرکنماد (شناسایی چهرک جهانی) کاربر را کارآ کنید'
       gravatar_default: "تصویر گراواتار پیش‌فرض"

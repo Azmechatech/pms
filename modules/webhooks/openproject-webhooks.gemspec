@@ -4,8 +4,8 @@ Gem::Specification.new do |s|
   s.authors     = "OpenProject GmbH"
   s.email       = "info@openproject.com"
   s.homepage    = "https://github.com/opf/openproject-webhooks"
-  s.summary     = "OpenProject Webhooks"
-  s.description = "Provides a plug-in API to support OpenProject webhooks for better 3rd party integration"
+  s.summary     = "Project Management System Webhooks"
+  s.description = "Provides a plug-in API to support Project Management System Webhooks for better 3rd party integration"
   s.license     = "GPLv3"
 
   s.files = Dir["{app,config,db,doc,lib}/**/*"] + %w(README.md)

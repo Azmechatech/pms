@@ -1,6 +1,6 @@
 cs:
   plugin_openproject_webhooks:
-    name: "OpenProject Webhooks"
+    name: "Project Management System Webhooks"
     description: ""
   activerecord:
     attributes:

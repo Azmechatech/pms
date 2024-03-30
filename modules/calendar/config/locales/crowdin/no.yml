@@ -1,7 +1,7 @@
 #English strings go here
 "no":
   plugin_openproject_calendar:
-    name: "OpenProject Kalender"
+    name: "Project Management System Kalender"
     description: "Tilbyr kalendervisninger."
   label_calendar: "Kalender"
   label_calendar_plural: "Kalendere"

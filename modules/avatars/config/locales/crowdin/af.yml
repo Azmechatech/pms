@@ -3,7 +3,7 @@ af:
   plugin_openproject_avatars:
     name: "Avatars"
     description: >-
-      This plugin allows OpenProject users to upload a picture to be used as an avatar or use registered images from Gravatar.
+      This plugin allows Project Management System users to upload a picture to be used as an avatar or use registered images from Gravatar.
   label_avatar: "Avatar"
   label_avatar_plural: "Avatars"
   label_current_avatar: "Huidige Avatar"
@@ -29,11 +29,11 @@ af:
       'n Voorskou van jou avatar sal gewys word voor oplaai sodra jy 'n beeld gekies het.
     text_change_gravatar_html: 'Om die Gravatar vir jou e-posadres te verander of by te voeg, gaan na %{gravatar_url}.'
     text_your_local_avatar: |
-      OpenProject laat jou toe om jou eie persoonlike avatar op te laai.
+      Project Management System laat jou toe om jou eie persoonlike avatar op te laai.
     text_local_avatar_over_gravatar: |
       As jy een stel, word hierdie pasgemaakte avatar voorrang bo die gravatar hierbo gebruik.
     text_your_current_gravatar: |
-      OpenProject gebruik jou gravatar as jy een geregistreer het, of 'n verstek beeld of ikoon as een bestaan.
+      Project Management System gebruik jou gravatar as jy een geregistreer het, of 'n verstek beeld of ikoon as een bestaan.
       Die huidige gravatar is soos volg:
     settings:
       enable_gravatars: 'Aktiveer gebruikers-gravatars'

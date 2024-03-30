@@ -1,7 +1,7 @@
 #English strings go here
 it:
   plugin_openproject_calendar:
-    name: "Calendario OpenProject"
+    name: "Calendario Project Management System"
     description: "Fornisce visualizzazioni di calendari."
   label_calendar: "Calendario"
   label_calendar_plural: "Calendari"

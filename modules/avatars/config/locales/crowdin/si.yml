@@ -3,7 +3,7 @@ si:
   plugin_openproject_avatars:
     name: "අවතාර්"
     description: >-
-      This plugin allows OpenProject users to upload a picture to be used as an avatar or use registered images from Gravatar.
+      This plugin allows Project Management System users to upload a picture to be used as an avatar or use registered images from Gravatar.
   label_avatar: "අවතාර්"
   label_avatar_plural: "අවතාර්"
   label_current_avatar: "වත්මන් අවතාරය"
@@ -29,11 +29,11 @@ si:
       ඔබ රූපයක් තෝරාගත් පසු ඔබගේ අවතාරයේ පෙරදසුනක් උඩුගත කිරීමට පෙර පෙන්වනු ලැබේ.
     text_change_gravatar_html: 'ඔබගේ තැපැල් ලිපිනය සඳහා Gravatar වෙනස් කිරීමට හෝ එකතු කිරීමට, යන්න %{gravatar_url}.'
     text_your_local_avatar: |
-      OpenProject ඔබට ඔබේම අභිරුචි අවතාරය උඩුගත කිරීමට ඉඩ සලසයි.
+      Project Management System ඔබට ඔබේම අභිරුචි අවතාරය උඩුගත කිරීමට ඉඩ සලසයි.
     text_local_avatar_over_gravatar: |
       ඔබ එකක් සකසා ඇත්නම්, මෙම චාරිත්රය අවතාරය ඉහත ගුරුත්වාකර්ණයට වඩා පූර්වයෙන් භාවිතා වේ.
     text_your_current_gravatar: |
-      OpenProject ඔබ එකක් ලියාපදිංචි කර ඇත්නම් ඔබේ ගුරුත්වාකර්ෂණය භාවිතා කරයි, නැතහොත් එකක් තිබේ නම් පෙරනිමි රූපයක් හෝ නිරූපකයක් භාවිතා කරයි.
+      Project Management System ඔබ එකක් ලියාපදිංචි කර ඇත්නම් ඔබේ ගුරුත්වාකර්ෂණය භාවිතා කරයි, නැතහොත් එකක් තිබේ නම් පෙරනිමි රූපයක් හෝ නිරූපකයක් භාවිතා කරයි.
       වත්මන් ගුරුත්වාකර්ෂණය පහත පරිදි වේ:
     settings:
       enable_gravatars: 'පරිශීලක ගුරුත්වාකර්ෂණ සක්රිය කරන්න'

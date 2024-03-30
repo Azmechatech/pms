@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = "1.0.0"
   s.authors     = "OpenProject GmbH"
   s.email       = "info@openproject.com"
-  s.summary     = "OpenProject Team Planner"
+  s.summary     = "Project Management System Team Planner"
   s.description = "Provides team planner views"
   s.license     = "GPLv3"
 

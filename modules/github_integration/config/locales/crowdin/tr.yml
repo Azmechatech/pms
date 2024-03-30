@@ -22,6 +22,6 @@
 tr:
   plugin_openproject_github_integration:
     name: "OpenProject GitHub Entegrasyonu"
-    description: "Integrates OpenProject and GitHub for a better workflow"
+    description: "Integrates Project Management System and GitHub for a better workflow "
   project_module_github: "GitHub"
   permission_show_github_content: "Github içeriğini göster"

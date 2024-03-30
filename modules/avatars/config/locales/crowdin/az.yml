@@ -3,7 +3,7 @@ az:
   plugin_openproject_avatars:
     name: "Avatarlar"
     description: >-
-      Bu plagin OpenProject istifadəçilərinə avatar kimi istifadə edilmək üçün şəkil yükləməyə və ya Gravatar-dan qeydə alınmış şəkillərdən istifadə etməyə imkan verir.
+      Bu plagin Project Management System istifadəçilərinə avatar kimi istifadə edilmək üçün şəkil yükləməyə və ya Gravatar-dan qeydə alınmış şəkillərdən istifadə etməyə imkan verir.
   label_avatar: "Avatar"
   label_avatar_plural: "Avatarlar"
   label_current_avatar: "Cari avatar"
@@ -29,11 +29,11 @@ az:
       Siz şəkil seçdikdən sonra, avatarınız yükləməzdən əvvəl sızə göstəriləcək
     text_change_gravatar_html: 'Poçt ünvanınızın Gravatarını dəyişmək və ya əlavə etmək üçün %{gravatar_url} ünvanına keçin.'
     text_your_local_avatar: |
-      OpenProject sizə öz fərdi avatarınızı yükləməyə imkan verir.
+      Project Management System sizə öz fərdi avatarınızı yükləməyə imkan verir.
     text_local_avatar_over_gravatar: |
       Əgər birini təyin etsəniz, bu fərdi avatar yuxarıdakı qravatardan üstün olaraq istifadə olunur.
     text_your_current_gravatar: |
-      OpenProject qravatarınızdan, əgər varsa, defolt şəkil və ya ikonadan istifadə edir.
+      Project Management System qravatarınızdan, əgər varsa, defolt şəkil və ya ikonadan istifadə edir.
       Hazırkı qravatar aşağıdakı kimidir
     settings:
       enable_gravatars: 'İstifadəçi qravatarlarını aktivləşdirin'

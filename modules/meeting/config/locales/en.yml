@@ -29,7 +29,7 @@
 # English strings go here for Rails i18n
 en:
   plugin_openproject_meeting:
-    name: "OpenProject Meeting"
+    name: "Project Management System Meeting"
     description: >-
       This module adds functions to support project meetings to OpenProject. Meetings can be
       scheduled selecting invitees from the same project to take part in the meeting. An agenda can

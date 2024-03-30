@@ -85,7 +85,7 @@ To change this setting, navigate to **Date format** inside of the **Calendar and
 
 ## Calendar subscriptions
 
-Administrators can allow users with the necessary permissions to subscribe to OpenProject calendars and access work package information via an external calendar client using iCalendar. When the setting **Enable iCalendar subscriptions** is inactive nobody will be able to subscribe to any calendar.
+Administrators can allow users with the necessary permissions to subscribe to Project Management System Calendars and access work package information via an external calendar client using iCalendar. When the setting **Enable iCalendar subscriptions** is inactive nobody will be able to subscribe to any calendar.
 
 To change this setting, navigate to **Calendar subscriptions** inside of the **Calendar and dates** settings.
 

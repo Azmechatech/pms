@@ -4,8 +4,8 @@ Gem::Specification.new do |s|
   s.authors     = "OpenProject GmbH"
   s.email       = "info@openproject.com"
   s.homepage    = "https://www.openproject.org/docs/system-admin-guide/integrations/github-integration/"
-  s.summary     = "OpenProject Github Integration"
-  s.description = "Integrates OpenProject and Github for a better workflow"
+  s.summary     = "Project Management System GitHub Integration"
+  s.description = "Integrates Project Management System and GitHub for a better workflow "
   s.license     = "GPLv3"
 
   s.files = Dir["{app,config,db,frontend,lib}/**/*"] + %w(README.md)

@@ -3,7 +3,7 @@ th:
   plugin_openproject_avatars:
     name: "รูปโปรไฟล์"
     description: >-
-      This plugin allows OpenProject users to upload a picture to be used as an avatar or use registered images from Gravatar.
+      This plugin allows Project Management System users to upload a picture to be used as an avatar or use registered images from Gravatar.
   label_avatar: "รูปโปรไฟล์"
   label_avatar_plural: "รูปโปรไฟล์"
   label_current_avatar: "รูปปัจจุบัน"

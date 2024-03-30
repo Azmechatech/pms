@@ -3,7 +3,7 @@ hi:
   plugin_openproject_avatars:
     name: "अवतार्"
     description: >-
-      This plugin allows OpenProject users to upload a picture to be used as an avatar or use registered images from Gravatar.
+      This plugin allows Project Management System users to upload a picture to be used as an avatar or use registered images from Gravatar.
   label_avatar: "अवतार"
   label_avatar_plural: "अवतार्"
   label_current_avatar: "वर्तमान अवतार"
@@ -29,11 +29,11 @@ hi:
       अवतार के लिये चित्र के चुनाव के बाद, अपलोड से पहले उसका पूर्वावलोकन दिखाया जाएगा।
     text_change_gravatar_html: 'अपने मेल एड्रेस के लिये Gravatar बदलने अथवा जोड़ने के लिये %{gravatar_url} पर जाएं।'
     text_your_local_avatar: |
-      OpenProject आपको स्वयं का अनुकूलित अवतार अपलोड करने की अनुमति देता है।
+      Project Management System आपको स्वयं का अनुकूलित अवतार अपलोड करने की अनुमति देता है।
     text_local_avatar_over_gravatar: |
       आपके द्वारा अनुकूलित अवतार निर्धारित किये जाने पर इसे उपर्युक्त Gravatar के ऊपर वरीयता देते हुए प्रयोग किया जाएगा।
     text_your_current_gravatar: |
-      OpenProject आपका Gravatar यदि आपने कोई पंजीकृत किया हो, अथवा एक पूर्व-निर्धारित चित्र या आइकन यदि कोई मौजूद हो, का प्रयोग करता है।
+    Project Management System आपका Gravatar यदि आपने कोई पंजीकृत किया हो, अथवा एक पूर्व-निर्धारित चित्र या आइकन यदि कोई मौजूद हो, का प्रयोग करता है।
       वर्तमान Gravatar इस प्रकार है:
     settings:
       enable_gravatars: 'उपयोगकर्ता के Gravatar सक्षम करें'

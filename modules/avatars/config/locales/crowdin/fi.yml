@@ -3,7 +3,7 @@ fi:
   plugin_openproject_avatars:
     name: "Kuvat"
     description: >-
-      This plugin allows OpenProject users to upload a picture to be used as an avatar or use registered images from Gravatar.
+      This plugin allows Project Management System users to upload a picture to be used as an avatar or use registered images from Gravatar.
   label_avatar: "Kuva"
   label_avatar_plural: "Kuvat"
   label_current_avatar: "Nykyinen kuva"
@@ -28,11 +28,11 @@ fi:
       Lisää oma kuvasi, jonka koko on 128x128 pikseliä. Suuremmat kuvat pienennetään ja leikataan sopiviksi. Kuvan esikatselu näytetään kun olet valinnut kuvatiedoston.
     text_change_gravatar_html: 'Vaihtaaksesi kuva sähköpostiosoitteellesi, siirry %{gravatar_url}.'
     text_your_local_avatar: |
-      Voit lisätä oman kuvasi OpenProjectiin.
+      Voit lisätä oman kuvasi Project Management Systemiin.
     text_local_avatar_over_gravatar: |
       Lisätty kuva korvaa gravatar -kuvan.
     text_your_current_gravatar: |
-      OpenProject käyttää gravatar -kuvaa jos olet rekisteröinyt sellaisen tai oletuskuvaa tai ikonia mikäli sellainen on olemassa. Nykyinen gravatar -kuva:
+      Project Management System käyttää gravatar -kuvaa jos olet rekisteröinyt sellaisen tai oletuskuvaa tai ikonia mikäli sellainen on olemassa. Nykyinen gravatar -kuva:
     settings:
       enable_gravatars: 'Salli käyttäjien gravatar kuvat'
       gravatar_default: "Oletus Gravatar käyttäjäikoni"

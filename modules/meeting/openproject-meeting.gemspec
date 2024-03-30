@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.version     = "1.0.0"
   s.authors     = "OpenProject GmbH"
   s.email       = "info@openproject.com"
-  s.summary     = "OpenProject Meeting"
+  s.summary     = "Project Management System Meeting"
   s.description = "This module adds functions to support project meetings to OpenProject. Meetings
     can be scheduled selecting invitees from the same project to take part in the meeting. An agenda
     can be created and sent to the invitees. After the meeting, attendees can be selected and
