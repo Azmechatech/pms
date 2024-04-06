@@ -120,7 +120,7 @@ OPENPROJECT_APIV3__CORS__ORIGINS (default=[]) API V3 Cross-Origin Resource Shari
 OPENPROJECT_APIV3__DOCS__ENABLED (default=true) Enable interactive APIv3 documentation as part of the application
 OPENPROJECT_APIV3__ENABLE__BASIC__AUTH (default=true) Enable API token or global basic authentication for APIv3 requests
 OPENPROJECT_APIV3__MAX__PAGE__SIZE (default=1000) Maximum API page size
-OPENPROJECT_APP__TITLE (default="OpenProject") Application title
+OPENPROJECT_APP__TITLE (default="UPMS") Application title
 OPENPROJECT_APPSIGNAL__FRONTEND__KEY (default=nil) Appsignal API key for JavaScript error reporting
 OPENPROJECT_ATTACHMENT__MAX__SIZE (default=5120) Attachment max. size
 OPENPROJECT_ATTACHMENT__WHITELIST (default=[]) Attachment upload whitelist
@@ -350,7 +350,7 @@ OPENPROJECT_YOUTUBE__CHANNEL (default="https://www.youtube.com/c/OpenProjectComm
 # Environment-specific configuration variables
 
 ## Docker
-
+OPENPROJECT_APP
 ### PostgreSQL statement_timeout
 
 In docker installations, there is a default `statement_timeout` of 90s set for the docker image. To override this value in case you're getting statement timeout errors such as "ERROR:  canceling statement due to statement timeout", use the environment variable `POSTGRES_STATEMENT_TIMEOUT`

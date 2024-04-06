@@ -56,8 +56,8 @@ en:
         main-menu-hover-font-color: "Main menu font on hover"
         main-menu-border-color: "Main menu border"
       custom_colors: "Custom colors"
-      customize: "Customize your OpenProject installation with your own logo and colors."
-      enterprise_notice: "As a special 'Thank you!' for their financial contribution to develop OpenProject, this tiny add-on is only available for Enterprise edition support subscribers."
+      customize: "Customize your UPMS installation with your own logo and colors."
+      enterprise_notice: "As a special 'Thank you!' for their financial contribution to develop UPMS, this tiny add-on is only available for Enterprise edition support subscribers."
       enterprise_more_info: "Note: the used logo will be publicly accessible."
       manage_colors: "Edit color select options"
       instructions:
@@ -131,44 +131,44 @@ en:
     technical_warning_html: |
       This LDAP form requires technical knowledge of your LDAP / Active Directory setup.
       <br/>
-      <a href="https://www.openproject.org/help/administration/manage-ldap-authentication/">Please visit our documentation for detailed instructions</a>.
+      <a href="https://www.UPMS.org/help/administration/manage-ldap-authentication/">Please visit our documentation for detailed instructions</a>.
     attribute_texts:
       name: Arbitrary name of the LDAP connection
       host: LDAP host name or IP address
       login_map: The attribute key in LDAP that is used to identify the unique user login. Usually, this will be `uid` or `samAccountName`.
-      generic_map: The attribute key in LDAP that is mapped to the OpenProject `%{attribute}` attribute
-      admin_map_html: "Optional: The attribute key in LDAP that <strong>if present</strong> marks the OpenProject user an admin. Leave empty when in doubt."
+      generic_map: The attribute key in LDAP that is mapped to the UPMS `%{attribute}` attribute
+      admin_map_html: "Optional: The attribute key in LDAP that <strong>if present</strong> marks the UPMS user an admin. Leave empty when in doubt."
       system_user_dn_html: |
         Enter the DN of the system user used for read-only access.
         <br/>
-        Example: uid=openproject,ou=system,dc=example,dc=com
+        Example: uid=UPMS,ou=system,dc=example,dc=com
       system_user_password: Enter the bind password of the system user
       base_dn: |
-        Enter the Base DN of the subtree in LDAP you want OpenProject to look for users and groups.
-        OpenProject will filter for provided usernames in this subtree only.
+        Enter the Base DN of the subtree in LDAP you want UPMS to look for users and groups.
+        UPMS will filter for provided usernames in this subtree only.
         Example: ou=users,dc=example,dc=com
       filter_string: |
         Add an optional RFC4515 filter to apply to the results returned for users filtered in the LDAP.
-        This can be used to restrict the set of users that are found by OpenProject for authentication and group synchronization.
+        This can be used to restrict the set of users that are found by UPMS for authentication and group synchronization.
       filter_string_concat: |
-        OpenProject will always filter for the login attribute provided by the user to identify the record. If you provide a filter here,
+        UPMS will always filter for the login attribute provided by the user to identify the record. If you provide a filter here,
         it will be concatenated with an AND. By default, a catch-all (objectClass=*) will be used as a filter.
       onthefly_register: |
-        If you check this box, OpenProject will automatically create new users from their LDAP entries
-        when they first authenticate with OpenProject.
-        Leave this unchecked to only allow existing accounts in OpenProject to authenticate through LDAP!
+        If you check this box, UPMS will automatically create new users from their LDAP entries
+        when they first authenticate with UPMS.
+        Leave this unchecked to only allow existing accounts in UPMS to authenticate through LDAP!
 
     connection_encryption: "Connection encryption"
     encryption_details: "LDAPS / STARTTLS options"
     system_account: "System account"
     system_account_legend: |
-      OpenProject requires read-only access through a system account to lookup users and groups in your LDAP tree.
+      UPMS requires read-only access through a system account to lookup users and groups in your LDAP tree.
       Please specify the bind credentials for that system user in the following section.
     ldap_details: "LDAP details"
     user_settings: "Attribute mapping"
     user_settings_legend: |
-      The following fields are related to how users are created in OpenProject from LDAP entries and
-      what LDAP attributes are used to define the attributes of an OpenProject user (attribute mapping).
+      The following fields are related to how users are created in UPMS from LDAP entries and
+      what LDAP attributes are used to define the attributes of an UPMS user (attribute mapping).
     tls_mode:
       plain: "none"
       simple_tls: "LDAPS"
@@ -252,7 +252,7 @@ en:
     single: "or"
 
   global_search:
-    placeholder: "Search in %{app_title}"
+    placeholder: "Search in UPMS"
     overwritten_tabs:
       wiki_pages: "Wiki"
       messages: "Forum"
@@ -417,7 +417,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
       description: >
         Placeholder users are a way to assign work packages to users who are not part of your project.
         They can be useful in a range of scenarios; for example, if you need to track tasks for a resource that is not yet named or available,
-         or if you don’t want to give that person access to OpenProject but still want to track tasks assigned to them.
+         or if you don’t want to give that person access to UPMS but still want to track tasks assigned to them.
   prioritiies:
     edit:
       priority_color_text: |
@@ -780,7 +780,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
         confirmation: "doesn't match %{attribute}."
         could_not_be_copied: "%{dependency} could not be (fully) copied."
         does_not_exist: "does not exist."
-        error_enterprise_only: "%{action} is only available in the OpenProject Enterprise edition"
+        error_enterprise_only: "%{action} is only available in the UPMS Enterprise edition"
         error_unauthorized: "may not be accessed."
         error_readonly: "was attempted to be written but is not writable."
         error_conflict: "Information has been updated by at least one other user in the meantime."
@@ -1226,7 +1226,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
       heading_create: "Create backup token"
       implications: >
         Enabling backups will allow any user with the required permissions and this backup token
-        to download a backup containing all data of this OpenProject installation.
+        to download a backup containing all data of this UPMS installation.
         This includes the data of all other users.
       info: >
         You will need to generate a backup token to be able to create a backup.
@@ -1532,7 +1532,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   error_check_user_and_role: "Please choose a user and a role."
   error_code: "Error %{code}"
   error_color_could_not_be_saved: "Color could not be saved"
-  error_cookie_missing: "The OpenProject cookie is missing. Please ensure that cookies are enabled, as this application will not properly function without."
+  error_cookie_missing: "The UPMS cookie is missing. Please ensure that cookies are enabled, as this application will not properly function without."
   error_custom_option_not_found: "Option does not exist."
   error_enterprise_activation_user_limit: "Your account could not be activated (user limit reached). Please contact your administrator to gain access."
   error_enterprise_token_invalid_domain: "The Enterprise edition is not active. Your Enterprise token's domain (%{actual}) does not match the system's host name (%{expected})."
@@ -1547,7 +1547,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   error_work_package_done_ratios_not_updated: "Work package % Complete values not updated."
   error_work_package_not_found_in_project: "The work package was not found or does not belong to this project"
   error_must_be_project_member: "must be project member"
-  error_migrations_are_pending: "Your OpenProject installation has pending database migrations. You have likely missed running the migrations on your last upgrade. Please check the upgrade guide to properly upgrade your installation."
+  error_migrations_are_pending: "Your UPMS installation has pending database migrations. You have likely missed running the migrations on your last upgrade. Please check the upgrade guide to properly upgrade your installation."
   error_migrations_visit_upgrade_guides: "Please visit our upgrade guide documentation"
   error_no_default_work_package_status: 'No default work package status is defined. Please check your configuration (Go to "Administration -> Work package statuses").'
   error_no_type_in_project: "No type is associated to this project. Please check the Project settings."
@@ -1637,7 +1637,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
       no_visible_projects: "There are no visible projects in this instance."
       users: "Newest registered users in this instance."
     blocks:
-      community: "OpenProject community"
+      community: "UPMS community"
       upsale:
         title: "Upgrade to Enterprise edition"
         more_info: "More information"
@@ -1649,7 +1649,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
       impressum: "Legal notice"
       glossary: "Glossary"
       shortcuts: "Shortcuts"
-      blog: "OpenProject blog"
+      blog: "UPMS blog"
       forums: "Community forum"
       newsletter: "Security alerts / Newsletter"
 
@@ -1662,7 +1662,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
     caused_changes:
       default_attribute_written: "Read-only attributes written"
       dates_changed: "Dates changed"
-      system_update: "OpenProject system update:"
+      system_update: "UPMS system update:"
 
     cause_descriptions:
       work_package_predecessor_changed_times: by changes to predecessor %{link}
@@ -1713,26 +1713,26 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
       simple_revoke_confirmation: "Are you sure you want to revoke this token?"
       api:
         title: "API"
-        text_hint: "API tokens allow third-party applications to communicate with this OpenProject instance via REST APIs."
+        text_hint: "API tokens allow third-party applications to communicate with this UPMS instance via REST APIs."
         static_token_name: "API token"
         disabled_text: "API tokens are not enabled by the administrator. Please contact your administrator to use this feature."
       ical:
         title: "iCalendar"
-        text_hint: 'iCalendar tokens allow users to <a href="%{path}" target="_blank">subscribe to OpenProject calendars</a> and view up-to-date work package information from external clients.'
+        text_hint: 'iCalendar tokens allow users to <a href="%{path}" target="_blank">subscribe to UPMS calendars</a> and view up-to-date work package information from external clients.'
         disabled_text: "iCalendar subscriptions are not enabled by the administrator. Please contact your administrator to use this feature."
         empty_text_hint: "To add an iCalendar token, subscribe to a new or existing calendar from within the Calendar module of a project. You must have the necessary permissions."
       oauth:
         title: "OAuth"
-        text_hint: "OAuth tokens allow third-party applications to connect with this OpenProject instance."
+        text_hint: "OAuth tokens allow third-party applications to connect with this UPMS instance."
         empty_text_hint: "There is no third-party application access configured and active for you. Please contact your administrator to activate this feature."
       rss:
         title: "RSS"
-        text_hint: "RSS tokens allow users to keep up with the latest changes in this OpenProject instance via an external RSS reader."
+        text_hint: "RSS tokens allow users to keep up with the latest changes in this UPMS instance via an external RSS reader."
         static_token_name: "RSS token"
         disabled_text: "RSS tokens are not enabled by the administrator. Please contact your administrator to use this feature."
       storages:
         title: "File Storages"
-        text_hint: "File Storage tokens connect this OpenProject instance with an external File Storage."
+        text_hint: "File Storage tokens connect this UPMS instance with an external File Storage."
         empty_text_hint: "There is no storage access linked to your account."
         revoke_token: "Do you really want to remove this token? You will need to login again on %{storage}"
         removed: "File Storage token successfully removed"
@@ -1751,10 +1751,10 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
         watched: "You are watching %{work_package}"
     update_info_mail:
       body: >
-        We are excited to announce the release of OpenProject 12.0. It's a major release that will hopefully significantly improve the way you use OpenProject.
+        We are excited to announce the release of upms 12.0. It's a major release that will hopefully significantly improve the way you use UPMS.
 
 
-        Starting with this release, we are introducing in-app notifications. From now on, you will receive notifications for updates to work packages directly in OpenProject. You can mark these notifications as read, reply to a comment or even directly modify work package attributes without leaving the notification center.
+        Starting with this release, we are introducing in-app notifications. From now on, you will receive notifications for updates to work packages directly in UPMS. You can mark these notifications as read, reply to a comment or even directly modify work package attributes without leaving the notification center.
 
 
         This also means that we will no longer be using emails for notifications. We think the new notification center is a better place to view and act upon these updates. Nevertheless, if you would like continue receiving updates via email, you can choose to receive daily email reminders at particular times of your choosing.
@@ -1768,7 +1768,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
 
         Sincerely,
 
-        The OpenProject team
+        The UPMS team
       body_header: "Version 12.0 with Notification Center"
       body_subheader: "News"
       subject: "Important changes to notifications with the release of 12.0"
@@ -2124,7 +2124,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   label_open_menu: "Open menu"
   label_open_work_packages: "open"
   label_open_work_packages_plural: "open"
-  label_openproject_website: "OpenProject website"
+  label_openproject_website: "UPMS website"
   label_optional_description: "Description"
   label_options: "Options"
   label_other: "Other"
@@ -2485,24 +2485,24 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   mail_body_backup_token_reset_user_info: Your backup token has been reset.
   mail_body_backup_token_info: The previous token is no longer valid.
   mail_body_backup_waiting_period: The new token will be enabled in %{hours} hours.
-  mail_body_backup_token_warning: If this wasn't you, login to OpenProject immediately and reset it again.
-  mail_body_incoming_email_error: The email you sent to OpenProject could not be processed.
+  mail_body_backup_token_warning: If this wasn't you, login to UPMS immediately and reset it again.
+  mail_body_incoming_email_error: The email you sent to UPMS could not be processed.
   mail_body_incoming_email_error_in_reply_to: "At %{received_at} %{from_email} wrote"
   mail_body_incoming_email_error_logs: "Logs"
   mail_body_lost_password: "To change your password, click on the following link:"
   mail_password_change_not_possible:
     title: "Password change not possible"
-    body: "Your account at %{app_title} is connected to an external authentication provider (%{name})."
+    body: "Your account at UPMS is connected to an external authentication provider (%{name})."
     subtext: "Passwords for external account cannot be changed in the application. Please use the lost password functionality of your authentication provider."
-  mail_body_register: "Welcome to %{app_title}. Please activate your account by clicking on this link:"
+  mail_body_register: "Welcome to UPMS. Please activate your account by clicking on this link:"
   mail_body_register_header_title: "Project member invitation email"
   mail_body_register_user: "Dear %{name}, "
   mail_body_register_links_html: |
     Please feel free to browse our youtube channel (%{youtube_link}) where we provide a webinar (%{webinar_link})
-    and “Get started” videos (%{get_started_link}) to make your first steps in OpenProject as easy as possible.
+    and “Get started” videos (%{get_started_link}) to make your first steps in UPMS as easy as possible.
     <br />
     If you have any further questions, consult our documentation (%{documentation_link}) or contact your administrator.
-  mail_body_register_closing: "Your OpenProject team"
+  mail_body_register_closing: "Your UPMS team"
   mail_body_register_ending: "Stay connected! Kind regards,"
   mail_body_reminder: "%{count} work package(s) that are assigned to you are due in the next %{days} days:"
   mail_body_group_reminder: '%{count} work package(s) that are assigned to group "%{group}" are due in the next %{days} days:'
@@ -2511,7 +2511,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   mail_subject_account_activation_request: "%{value} account activation request"
   mail_subject_backup_ready: "Your backup is ready"
   mail_subject_backup_token_reset: "Backup token reset"
-  mail_subject_incoming_email_error: "An email you sent to OpenProject could not be processed"
+  mail_subject_incoming_email_error: "An email you sent to UPMS could not be processed"
   mail_subject_lost_password: "Your %{value} password"
   mail_subject_register: "Your %{value} account activation"
   mail_subject_wiki_content_added: "'%{id}' wiki page has been added"
@@ -2544,7 +2544,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   mail_user_activation_limit_reached:
     subject: User activation limit reached
     message: |
-      A new user (%{email}) tried to create an account on an OpenProject environment that you manage (%{host}).
+      A new user (%{email}) tried to create an account on an UPMS environment that you manage (%{host}).
       The user cannot activate their account since the user limit has been reached.
     steps:
       label: "To allow the user to sign in you can either: "
@@ -2553,7 +2553,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
 
   more_actions: "More functions"
 
-  noscript_description: "You need to activate JavaScript in order to use OpenProject!"
+  noscript_description: "You need to activate JavaScript in order to use UPMS!"
   noscript_heading: "JavaScript disabled"
   noscript_learn_more: "Learn more"
 
@@ -2589,7 +2589,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
 
   notice_file_not_found: "The page you were trying to access doesn't exist or has been removed."
   notice_forced_logout: "You have been automatically logged out after %{ttl_time} minutes of inactivity."
-  notice_internal_server_error: "An error occurred on the page you were trying to access. If you continue to experience problems please contact your %{app_title} administrator for assistance."
+  notice_internal_server_error: "An error occurred on the page you were trying to access. If you continue to experience problems please contact your UPMS administrator for assistance."
   notice_work_package_done_ratios_updated: "% complete updated"
   notice_locking_conflict: "Information has been updated by at least one other user in the meantime."
   notice_locking_conflict_additional_information: "The update(s) came from %{users}."
@@ -2625,7 +2625,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   notice_wont_delete_auth_source: The LDAP connection cannot be deleted as long as there are still users using it.
   notice_project_cannot_update_custom_fields: "You cannot update the project's available custom fields. The project is invalid: %{errors}"
   notice_attachment_migration_wiki_page: >
-    This page was generated automatically during the update of OpenProject.
+    This page was generated automatically during the update of UPMS.
     It contains all attachments previously associated with the %{container_type} "%{container_name}".
 
   # Default format for numbers
@@ -2651,8 +2651,8 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
 
   onboarding:
     heading_getting_started: "Get an overview"
-    text_getting_started_description: "Get a quick overview of project management and team collaboration with OpenProject. You can restart this video from the help menu."
-    welcome: "Welcome to %{app_title}"
+    text_getting_started_description: "Get a quick overview of project management and team collaboration with UPMS. You can restart this video from the help menu."
+    welcome: "Welcome to UPMS"
     select_language: "Please select your language"
 
   permission_add_work_package_notes: "Add notes"
@@ -2725,7 +2725,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   permission_share_work_packages: "Share work packages"
   permission_manage_types: "Select types"
   permission_view_project: "View projects"
-  permission_view_changesets: "View repository revisions in OpenProject"
+  permission_view_changesets: "View repository revisions in UPMS"
   permission_view_commit_author_statistics: "View commit author statistics"
   permission_view_dashboards: "View dashboards"
   permission_view_work_package_watchers: "View watchers list"
@@ -2831,7 +2831,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
     destroy:
       confirmation: "If you continue, this will permanently delete the managed repository."
       info: "Deleting the repository is an irreversible action."
-      info_not_managed: "Note: This will NOT delete the contents of this repository, as it is not managed by OpenProject."
+      info_not_managed: "Note: This will NOT delete the contents of this repository, as it is not managed by UPMS."
       managed_path_note: "The following directory will be erased: %{path}"
       repository_verification: "Enter the project's identifier %{identifier} to verify the deletion of its repository."
       subtitle: "Do you really want to delete the %{repository_type} of the project %{project_name}?"
@@ -2845,8 +2845,8 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
       empty_repository: "The repository exists, but is empty. It does not contain any revisions yet."
       exists_on_filesystem: "The repository directory already exists in the filesystem."
       filesystem_access_failed: "An error occurred while accessing the repository in the filesystem: %{message}"
-      not_manageable: "This repository vendor cannot be managed by OpenProject."
-      path_permission_failed: "An error occurred trying to create the following path: %{path}. Please ensure that OpenProject may write to that folder."
+      not_manageable: "This repository vendor cannot be managed by UPMS."
+      path_permission_failed: "An error occurred trying to create the following path: %{path}. Please ensure that UPMS may write to that folder."
       unauthorized: "You're not authorized to access the repository or the credentials are invalid."
       unavailable: "The repository is unavailable."
       exception_title: "Cannot access the repository: %{message}"
@@ -2865,9 +2865,9 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
         path_encoding: "Override Git path encoding (Default: UTF-8)"
       local_title: "Link existing local Git repository"
       local_url: "Local URL"
-      local_introduction: "If you have an existing local Git repository, you can link it with OpenProject to access it from within the application."
-      managed_introduction: "Let OpenProject create and integrate a local Git repository automatically."
-      managed_title: "Git repository integrated into OpenProject"
+      local_introduction: "If you have an existing local Git repository, you can link it with UPMS to access it from within the application."
+      managed_introduction: "Let UPMS create and integrate a local Git repository automatically."
+      managed_title: "Git repository integrated into UPMS"
       managed_url: "Managed URL"
       path: "Path to Git repository"
       path_encoding: "Path encoding"
@@ -2884,24 +2884,24 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
     scm_types:
       local: "Link existing local repository"
       existing: "Link existing repository"
-      managed: "Create new repository in OpenProject"
+      managed: "Create new repository in UPMS"
     storage:
       not_available: "Disk storage consumption is not available for this repository."
       update_timeout: "Keep the last required disk space information for a repository for N minutes.\nAs counting the required disk space of a repository may be costly, increase this value to reduce performance impact."
-      oauth_application_details: "The client secret value will not be accessible again after you close this window. Please copy these values into the Nextcloud OpenProject Integration settings:"
+      oauth_application_details: "The client secret value will not be accessible again after you close this window. Please copy these values into the Nextcloud UPMS Integration settings:"
       oauth_application_details_link_text: "Go to settings page"
       setup_documentation_details: "If you need help configuring a new file storage please check the documentation: "
       setup_documentation_details_link_text: "File Storages setup"
       show_warning_details: "To use this file storage remember to activate the module and the specific storage in the project settings of each desired project."
     subversion:
       existing_title: "Existing Subversion repository"
-      existing_introduction: "If you have an existing Subversion repository, you can link it with OpenProject to access it from within the application."
+      existing_introduction: "If you have an existing Subversion repository, you can link it with UPMS to access it from within the application."
       existing_url: "Existing URL"
       instructions:
         managed_url: "This is the URL of the managed (local) Subversion repository."
         url: "Enter the repository URL. This may either target a local repository (starting with %{local_proto} ), or a remote repository.\nThe following URL schemes are supported:"
-      managed_title: "Subversion repository integrated into OpenProject"
-      managed_introduction: "Let OpenProject create and integrate a local Subversion repository automatically."
+      managed_title: "Subversion repository integrated into UPMS"
+      managed_introduction: "Let UPMS create and integrate a local Subversion repository automatically."
       managed_url: "Managed URL"
       password: "Repository Password"
       username: "Repository username"
@@ -2921,7 +2921,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   setting_apiv3_cors_enabled: "Enable CORS"
   setting_apiv3_cors_origins: "API V3 Cross-Origin Resource Sharing (CORS) allowed origins"
   setting_apiv3_cors_origins_text_html: >
-    If CORS is enabled, these are the origins that are allowed to access OpenProject API.
+    If CORS is enabled, these are the origins that are allowed to access UPMS API.
     <br/>
     Please check the <a href="%{origin_link}" target="_blank">Documentation on the Origin header</a> on how to specify the expected values.
   setting_apiv3_write_readonly_attributes: "Write access to read-only attributes"
@@ -3083,7 +3083,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
         There are %{file_count} that were uploaded previously and still need to be scanned.
         This process has been scheduled in the background. The files will remain accessible during the scan.
       upsale:
-        description: "Ensure uploaded files in OpenProject are scanned for viruses before being accessible by other users."
+        description: "Ensure uploaded files in UPMS are scanned for viruses before being accessible by other users."
       actions:
         delete: "Delete the file"
         quarantine: "Quarantine the file"
@@ -3102,7 +3102,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
           <br/>
           <ul>
           <li><strong>%{disabled_option}</strong>: Uploaded files are not scanned for viruses.</li>
-          <li><strong>%{socket_option}</strong>: You have set up ClamAV on the same server as OpenProject and the scan daemon clamd is running in the background</li>
+          <li><strong>%{socket_option}</strong>: You have set up ClamAV on the same server as UPMS and the scan daemon clamd is running in the background</li>
           <li><strong>%{host_option}</strong>: You are streaming files to an external virus scanning host.</li>
           </ul>
     brute_force_prevention: "Automated user blocking"
@@ -3115,8 +3115,8 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
         This value together with first day of the week determines the total number of weeks in a year.
         For more information, please see our <a href="%{link}" target="_blank">documentation</a> on this topic.
     experimental:
-      save_confirmation: Caution! Risk of data loss! Only activate experimental features if you do not mind breaking your OpenProject installation and losing all of its data.
-      warning_toast: Feature flags are settings that activate features that are still under development. They shall only be used for testing purposes. They shall never be activated on OpenProject installations holding important data. These features will very likely corrupt your data. Use them at your own risk.
+      save_confirmation: Caution! Risk of data loss! Only activate experimental features if you do not mind breaking your UPMS installation and losing all of its data.
+      warning_toast: Feature flags are settings that activate features that are still under development. They shall only be used for testing purposes. They shall never be activated on UPMS installations holding important data. These features will very likely corrupt your data. Use them at your own risk.
       feature_flags: Feature flags
     general: "General"
     highlighting:
@@ -3127,7 +3127,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
         type: "Entire row by Type"
         priority: "Entire row by Priority"
     icalendar:
-      enable_subscriptions_text_html: Allows users with the necessary permissions to subscribe to OpenProject calendars and access work package information via an external calendar client. <strong>Note:</strong> Please read about <a href="%{link}" target="_blank">iCalendar subscriptions</a> to understand potential security risks before enabling this.
+      enable_subscriptions_text_html: Allows users with the necessary permissions to subscribe to UPMS calendars and access work package information via an external calendar client. <strong>Note:</strong> Please read about <a href="%{link}" target="_blank">iCalendar subscriptions</a> to understand potential security risks before enabling this.
     language_name_being_default: "%{language_name} (default)"
     notifications:
       events_explanation: "Governs for which event an email is sent out. Work packages are excluded from this list as the notifications for them can be configured specifically for every user."
@@ -3179,7 +3179,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
       skip_last_comma: "false"
 
   text_accessibility_hint: "The accessibility mode is designed for users who are blind, motorically handicaped or have a bad eyesight. For the latter focused elements are specially highlighted. Please notice, that the Backlogs module is not available in this mode."
-  text_access_token_hint: "Access tokens allow you to grant external applications access to resources in OpenProject."
+  text_access_token_hint: "Access tokens allow you to grant external applications access to resources in UPMS."
   text_analyze: "Further analyze: %{subject}"
   text_are_you_sure: "Are you sure?"
   text_are_you_sure_continue: "Are you sure you want to continue?"
@@ -3285,7 +3285,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
     Note: if enabled, this will display a badge with your installation status in the <a href="%{information_panel_path}">%{information_panel_label}</a> administration panel,
     and on the home page. It is displayed to administrators only.
     <br/>
-    The badge will check your current OpenProject version against the official OpenProject release database to alert you of any updates or known vulnerabilities.
+    The badge will check your current UPMS version against the official UPMS release database to alert you of any updates or known vulnerabilities.
     For more information on what the check provides, what data is needed to provide available updates, and how to disable this check, please visit <a href="%{more_info_url}">the configuration documentation</a>.
   text_own_membership_delete_confirmation: "You are about to remove some or all of your permissions and may no longer be able to edit this project after that.\nAre you sure you want to continue?"
   text_plugin_assets_writable: "Plugin assets directory writable"
@@ -3294,7 +3294,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   text_reassign: "Reassign to work package:"
   text_regexp_info: "eg. ^[A-Z0-9]+$"
   text_regexp_multiline: 'The regex is applied in a multi-line mode. e.g., ^---\s+'
-  text_repository_usernames_mapping: "Select or update the OpenProject user mapped to each username found in the repository log.\nUsers with the same OpenProject and repository username or email are automatically mapped."
+  text_repository_usernames_mapping: "Select or update the UPMS user mapped to each username found in the repository log.\nUsers with the same UPMS and repository username or email are automatically mapped."
   text_status_changed_by_changeset: "Applied in changeset %{value}."
   text_table_difference_description: "In this table the single %{entries} are shown. You can view the difference between any two entries by first selecting the according checkboxes in the table. When clicking on the button below the table the differences are shown."
   text_time_logged_by_changeset: "Applied in changeset %{value}."
@@ -3381,7 +3381,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
     identity_url_text: "The internal unique identifier provided by the authentication provider."
     authentication_settings_disabled_due_to_external_authentication: >
       This user authenticates via an external authentication provider, so there is no password
-      in OpenProject to be changed.
+      in UPMS to be changed.
     authorization_rejected: "You are not allowed to sign in."
     assign_random_password: "Assign random password (sent to user via email)"
     blocked: "locked temporarily"
@@ -3416,7 +3416,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   warning_attachments_not_saved: "%{count} file(s) could not be saved."
   warning_imminent_user_limit: >
     You invited more users than are supported by your current plan.
-    Invited users may not be able to join your OpenProject environment.
+    Invited users may not be able to join your UPMS environment.
     Please <a href="%{upgrade_url}">upgrade your plan</a> or block existing
     users in order to allow invited and registered users to join.
   warning_registration_token_expired: |
@@ -3428,7 +3428,6 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
     Adding additional users will exceed the current limit. Please <a href="%{upgrade_url}">upgrade your plan</a> to be able to ensure external users are able to access this instance.
   warning_user_limit_reached_instructions: >
     You reached your user limit (%{current}/%{max} active users).
-    Please contact sales@openproject.com to upgrade your Enterprise edition plan and add additional users.
   warning_protocol_mismatch_html: >
 
   warning_bar:
@@ -3656,24 +3655,24 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
         confidential: "Check if the application will be used where the client secret can be kept confidential. Native mobile apps and Single Page Apps are assumed non-confidential."
         scopes: "Check the scopes you want the application to grant access to. If no scope is checked, api_v3 is assumed."
         client_credential_user_id: "Optional user ID to impersonate when clients use this application. Leave empty to allow public access only"
-        register_intro: "If you are developing an OAuth API client application for OpenProject, you can register it using this form for all users to use."
+        register_intro: "If you are developing an OAuth API client application for UPMS, you can register it using this form for all users to use."
         default_scopes: ""
     client_id: "Client ID"
     client_secret_notice: >
       This is the only time we can print the client secret, please note it down and keep it secure.
-      It should be treated as a password and cannot be retrieved by OpenProject at a later time.
+      It should be treated as a password and cannot be retrieved by UPMS at a later time.
     authorization_dialog:
       authorize: "Authorize"
       cancel: "Cancel and deny authorization."
       prompt_html: "Authorize <strong>%{application_name}</strong> to use your account <em>%{login}</em>?"
       title: "Authorize %{application_name}"
       wants_to_access_html: >
-        This application requests access to your OpenProject account.
+        This application requests access to your UPMS account.
         <br/>
         <strong>It has requested the following permissions:</strong>
     scopes:
       api_v3: "Full API v3 access"
-      api_v3_text: "Application will receive full read & write access to the OpenProject API v3 to perform actions on your behalf."
+      api_v3_text: "Application will receive full read & write access to the UPMS API v3 to perform actions on your behalf."
     grants:
       created_date: "Approved on"
       scopes: "Permissions"
@@ -3689,7 +3688,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
     client_credentials_impersonation_set_to: "Client credentials user set to"
     client_credentials_impersonation_warning: "Note: Clients using the 'Client credentials' flow in this application will have the rights of this user"
     client_credentials_impersonation_html: >
-      By default, OpenProject provides OAuth 2.0 authorization via %{authorization_code_flow_link}.
+      By default, UPMS provides OAuth 2.0 authorization via %{authorization_code_flow_link}.
       You can optionally enable %{client_credentials_flow_link}, but you must provide a user on whose behalf requests will be performed.
     authorization_error: "An authorization error has occurred."
     revoke_my_application_confirmation: "Do you really want to remove this application? This will revoke %{token_count} active for it."
@@ -3720,14 +3719,14 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
       refresh_token_updated_failed: "Error during update of OAuthClientToken"
       oauth_client_not_found_explanation: >
         This error appears after you have updated the client_id and client_secret
-        in OpenProject, but haven't updated the 'Return URI' field in the OAuth2 provider.
+        in UPMS, but haven't updated the 'Return URI' field in the OAuth2 provider.
       oauth_code_not_present: "OAuth2 'code' not found in 'callback' endpoint (redirect_uri)."
       oauth_code_not_present_explanation: >
         This error appears if you have selected the wrong response_type
         in the OAuth2 provider. Response_type should be 'code' or similar.
       oauth_state_not_present: "OAuth2 'state' not found in 'callback' endpoint (redirect_uri)."
       oauth_state_not_present_explanation: >
-        The 'state' is used to indicate to OpenProject where to continue
+        The 'state' is used to indicate to UPMS where to continue
         after a successful OAuth2 authorization.
         A missing 'state' is an internal error that may appear during setup.
         Please contact your system administrator.
@@ -3738,7 +3737,7 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
           This error appears if you try to authorize multiple times or in case of technical issues.
         invalid_response: "OAuth2 Authorization Server provided an invalid response (invalid_response)"
         invalid_grant: "The OAuth2 Authorization Server asks you to reauthorize (invalid_grant)."
-        invalid_client: "The OAuth2 Authorization Server doesn't recognize OpenProject (invalid_client)."
+        invalid_client: "The OAuth2 Authorization Server doesn't recognize UPMS (invalid_client)."
         unauthorized_client: "The OAuth2 Authorization Server rejects the grant type (unauthorized_client)"
         unsupported_grant_type: "The OAuth2 Authorization Server asks you to reauthorize (unsupported_grant_type)."
         invalid_scope: "You are not allowed to access the requested resource (invalid_scope)."
@@ -3754,8 +3753,8 @@ Project attributes and sections are defined in the <a href=%{admin_settings_url}
   link: link
 
   plugin_openproject_auth_plugins:
-    name: "OpenProject Auth Plugins"
-    description: "Integration of OmniAuth strategy providers for authentication in Openproject."
+    name: "UPMS Auth Plugins"
+    description: "Integration of OmniAuth strategy providers for authentication in UPMS."
   plugin_openproject_auth_saml:
     name: "OmniAuth SAML / Single-Sign On"
-    description: "Adds the OmniAuth SAML provider to OpenProject"
+    description: "Adds the OmniAuth SAML provider to UPMS"

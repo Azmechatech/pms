@@ -29,34 +29,34 @@ See COPYRIGHT and LICENSE files for more details.
 <% breadcrumb_paths(nil) %>
 <h2 class="headline--application">
   <span><%= organization_icon %></span>
-  <%= organization_name %>
+  UPMS
 </h2>
+<div class="op-widget-box--header" data-test-selector="op-widget-box--header">
+  <div class="op-widget-box--header-title title-container">
+    <h2 class="editable-toolbar-title--fixed">Welcome to UPMS!</h2>
+  </div>
+</div>
+<%= render 'homescreen/blocks/header', title: t('label_my_account') %>
+
+<ul class="widget-box--arrow-links">
+  <li>
+    <%= link_to t(:label_profile), my_account_path, title: t(:label_profile) %>
+  </li>
+  <li>
+    <%= link_to t(:'js.my_page.label'), my_page_path,
+                title: t(:'js.my_page.label') %>
+  </li>
+  <li>
+    <%= link_to t(:button_change_password), my_password_path, title: t(:button_change_password) %>
+  </li>
+</ul>
+
 
 <%= render partial: 'announcements/show' %>
 
-<% if @homescreen[:blocks].any? %>
-  <section class="widget-boxes -flex">
-  <% @homescreen[:blocks].each do |block| %>
-    <% if block[:if].nil? || instance_eval(&block[:if]) %>
-      <div class="widget-box <%= block[:partial] %>">
-      <%= render partial: "homescreen/blocks/#{block[:partial]}", locals: (block[:locals] || {}) %>
-      </div>
-    <% end %>
-  <% end %>
-  </section>
-<% end %>
 
 <% if show_homescreen_links? && @homescreen[:links].any? %>
-  <section class="homescreen--links">
-
-  <% @homescreen[:links].each do |link| %>
-    <% title = I18n.t(link[:label], scope: 'homescreen.links') %>
-    <a class="homescreen--links--item" href="<%= link[:url] %>" target="_blank" title="<%= title %>">
-      <%= op_icon(link[:icon]) %>
-      <%= title %>
-    </a>
-  <% end %>
-  </section>
+  
 <% end %>
 
 <%= call_hook :homescreen_after_links %>

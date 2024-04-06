@@ -14,7 +14,6 @@ export class ShareUpsaleComponent {
     title: this.I18n.t('js.work_packages.sharing.title'),
     description: this.I18n.t('js.work_packages.sharing.upsale.description'),
   };
-
   constructor(
     readonly I18n:I18nService,
   ) { }

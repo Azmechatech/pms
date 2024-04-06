@@ -66,6 +66,14 @@ GIT
     omniauth-openid_connect-providers (0.2.0)
       omniauth-openid-connect (>= 0.2.1)
 
+GIT
+  remote: https://github.com/opf/openproject-proto_plugin.git
+  revision: cc663f3deccfb74b1f0064a65bebdb280b25110d
+  branch: dev
+  specs:
+    openproject-proto_plugin (7.1.0)
+      rails (~> 7.0)
+
 PATH
   remote: modules/auth_plugins
   specs:
@@ -1267,6 +1275,7 @@ DEPENDENCIES
   openproject-octicons_helper (~> 19.8.0)
   openproject-openid_connect!
   openproject-primer_view_components (~> 0.23.0)
+  openproject-proto_plugin!
   openproject-recaptcha!
   openproject-reporting!
   openproject-storages!

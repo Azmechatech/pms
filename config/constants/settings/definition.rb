@@ -67,7 +67,7 @@ module Settings
         default: false
       },
       app_title: {
-        default: "OpenProject"
+        default: "UPMS"
       },
       attachment_max_size: {
         default: 5120
